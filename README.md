@@ -36,6 +36,8 @@ Run commands per the below to see their usage:
 
 `./dtlp -h`
 
+#### Important! The timing system is not perfectly accurate. Even though the decryption process is deterministic, the measurements taken from the system during the encryption to determine CPU performance may be affected by other programs running at the same time. Furthermore other programs running during the decryption may delay it too. In extreme cases, it may take 1.5 x set encryption time to decrypt the data.
+
 ### TODO for the next person who is willing to take the task:
 
 * Rewrite it in Rust, easily installable with cargo.
