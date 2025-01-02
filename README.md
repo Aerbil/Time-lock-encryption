@@ -36,11 +36,12 @@ Run commands per the below to see their usage:
 
 `./dtlp -h`
 
+
+#### Important! The timing system is not perfectly accurate. Even though the decryption process is deterministic, the measurements taken from the system during the encryption to determine CPU performance may be affected by other programs running at the same time. Furthermore other programs running during the decryption may delay it too. In extreme cases, it may take up to 2-3 times the encryption duration to decrypt the data.
+
 ## Status
 
 This project remains in active use by myself from its inception (iirc, ~2021) to today as of 1 Jan 2025. As an individual with attention issues, I rely on Screen Time controls on my electronic devices to function in the society, and those controls rely on this program for their PIN/password. There is currently no reason to think I won't use it unless I develop something to replace the functionality, or achieve all-day total mindfullness somehow.
-
-#### Important! The timing system is not perfectly accurate. Even though the decryption process is deterministic, the measurements taken from the system during the encryption to determine CPU performance may be affected by other programs running at the same time. Furthermore other programs running during the decryption may delay it too. In extreme cases, it may take up to 2-3 times the encryption duration to decrypt the data.
 
 ### TODOs
 
